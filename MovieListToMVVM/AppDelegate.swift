@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  MovieListToMVVM
-//
-//  Created by Lydia Lu on 2024/11/20.
-//
+
 
 import UIKit
 
