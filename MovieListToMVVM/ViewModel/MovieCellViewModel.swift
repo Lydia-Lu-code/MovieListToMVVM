@@ -7,12 +7,6 @@
 
 import Foundation
 
-//struct MovieCellViewModel {
-//    let title: String
-//    let overview: String
-//    let rating: String
-//    let isFavorite: Bool
-//}
 
 // MARK: - Cell ViewModel
 struct MovieCellViewModel {

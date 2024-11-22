@@ -1,9 +1,4 @@
-//
-//  MovieDetailViewController.swift
-//  MovieListToMVVM
-//
-//  Created by Lydia Lu on 2024/11/22.
-//
+
 
 import UIKit
 
@@ -188,24 +183,6 @@ class MovieDetailViewController: UIViewController {
         }
     }
     
-//    @objc private func favoriteButtonTapped() {
-//        // 更新本地狀態
-//        isFavorite.toggle()
-//        updateFavoriteButton()
-//        
-//        // 通知 ViewModel 更新收藏狀態
-//        viewModel.updateFavoriteStatus(for: movie.id, isFavorite: isFavorite)
-//    }
-    
-//    private func setupBindings() {
-//        viewModel.favoriteUpdated.bind { [weak self] (movieId, isFavorite) in
-//            guard let self = self, movieId == self.movie.id else { return }
-//            DispatchQueue.main.async {
-//                self.isFavorite = isFavorite
-//                self.updateFavoriteButton()
-//            }
-//        }
-//    }
     
     private func configureNavigationBar() {
         let favoriteButton = UIBarButtonItem(
