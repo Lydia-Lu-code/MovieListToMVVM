@@ -20,6 +20,8 @@
 		5C9E54702CEE1C5500F745C5 /* MovieCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E546F2CEE1C5500F745C5 /* MovieCellViewModel.swift */; };
 		5C9E54722CEE1CF900F745C5 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E54712CEE1CF900F745C5 /* MovieServiceProtocol.swift */; };
 		5C9E54762CEEEC7E00F745C5 /* MovieDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E54752CEEEC7E00F745C5 /* MovieDataManager.swift */; };
+		5C9E547F2CF037F200F745C5 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E547E2CF037F200F745C5 /* MovieTableViewCell.swift */; };
+		5C9E54812CF0384400F745C5 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E54802CF0384400F745C5 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		5C9E546F2CEE1C5500F745C5 /* MovieCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellViewModel.swift; sourceTree = "<group>"; };
 		5C9E54712CEE1CF900F745C5 /* MovieServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceProtocol.swift; sourceTree = "<group>"; };
 		5C9E54752CEEEC7E00F745C5 /* MovieDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataManager.swift; sourceTree = "<group>"; };
+		5C9E547E2CF037F200F745C5 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		5C9E54802CF0384400F745C5 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				5C9E54552CEE1B4F00F745C5 /* MovieListViewController.swift */,
+				5C9E547E2CF037F200F745C5 /* MovieTableViewCell.swift */,
+				5C9E54802CF0384400F745C5 /* MovieDetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,11 +209,13 @@
 				5C9E546A2CEE1BEB00F745C5 /* MovieListViewModel.swift in Sources */,
 				5C9E54762CEEEC7E00F745C5 /* MovieDataManager.swift in Sources */,
 				5C9E54562CEE1B4F00F745C5 /* MovieListViewController.swift in Sources */,
+				5C9E54812CF0384400F745C5 /* MovieDetailViewController.swift in Sources */,
 				5C9E54522CEE1B4F00F745C5 /* AppDelegate.swift in Sources */,
 				5C9E54672CEE1B8D00F745C5 /* Movie.swift in Sources */,
 				5C9E546C2CEE1C0500F745C5 /* Observable.swift in Sources */,
 				5C9E54542CEE1B4F00F745C5 /* SceneDelegate.swift in Sources */,
 				5C9E54702CEE1C5500F745C5 /* MovieCellViewModel.swift in Sources */,
+				5C9E547F2CF037F200F745C5 /* MovieTableViewCell.swift in Sources */,
 				5C9E54722CEE1CF900F745C5 /* MovieServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
