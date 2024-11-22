@@ -15,7 +15,7 @@ class MovieListViewController: UIViewController {
     
     required init?(coder: NSCoder) {
         let movieService = MovieService()
-        self.viewModel = DefaultMovieListViewModel(movieService: movieService)
+        self.viewModel = MovieDefaultViewModel(movieService: movieService)
         super.init(coder: coder)
     }
     

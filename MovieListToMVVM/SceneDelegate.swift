@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
          
          // 初始化 ViewModel 和 ViewController
          let movieService = MovieService() // 你的 MovieService 實現
-         let viewModel = DefaultMovieListViewModel(movieService: movieService)
+         let viewModel = MovieDefaultViewModel(movieService: movieService)
          let viewController = MovieListViewController(viewModel: viewModel)
          
          // 設置根視圖控制器

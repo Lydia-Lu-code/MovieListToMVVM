@@ -2,7 +2,7 @@
 
 import Foundation
 
-class DefaultMovieListViewModel: MovieListViewModel {
+class MovieDefaultViewModel: MovieListViewModel {
     // MARK: - Outputs
     var movies: Observable<[MovieCellViewModel]> = Observable([])
     var isLoading: Observable<Bool> = Observable(false)
